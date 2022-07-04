@@ -1,0 +1,17 @@
+fun main() {
+ var myfirstdice =Dice()
+val rolldice= myfirstdice.roll()
+println("Your ${myfirstdice.sides} sided dice rolled ${rolldice}!")
+ 
+}
+class Dice{
+   
+    var sides=20
+    fun roll():Int{
+         var randomNumber =(1..20).random() 
+        	
+            return randomNumber
+    }
+   
+    
+}
